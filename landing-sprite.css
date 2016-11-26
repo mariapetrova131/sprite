@@ -1,20 +1,51 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: arial, helvetica;
+	
 	
 }
 
-header {
-	display: flex;
-	background-image: url(img/bg.jpg);
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body {
+	font: 300 14px/1.5 "lato", Arial, sans-serif;
+	color: #3c3c;
+}
+
+.ba-conteiner {
+padding-left: 20px;
+	padding-right: 20px;
+	max-width: 940px;	
+}
+
+.ba-conteiner--hero {
+	max-width: 640px;
+}
+
+.ba-header {
+	background: #aab5ca url(img/bg.jpg) 50% no-repeat;
+	color: white;
 	background-size: cover;
-	background-repeat: no-repeat;
+	text-align: center;
+	padding: 284px 0px 384px;
+	min-height: 100vh;
+	}
+
+.ba-header__title {
+	text-transform: uppercase;
+	letter-spacing: .16em;
+	font-weight: 700;
+	font-size: 54px ;
+}
+	/*display: flex;
+	background-image: url(img/bg.jpg);
+	
+	background-repeat: ;
 	flex-direction: column;
 	width: 100%;
-	color: white;
-	align-items: center;
-}
+	
+	align-items: center;*/
+/*}
 
 section {
 	display: flex;
@@ -28,9 +59,9 @@ section {
 	background-repeat: no-repeat;
 	color: white;
 	align-items: center;
-}
+}*/
 
-h1, h2, h3 {
+/*h1, h2, h3 {
 	text-transform: uppercase;
 	
 }
@@ -50,4 +81,4 @@ img {
 	flex-direction: row;
 	flex-wrap: wrap;
 	
-}
+}*/
